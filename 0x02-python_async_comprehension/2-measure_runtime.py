@@ -10,6 +10,7 @@ async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
 async def measure_runtime() -> float:
+    """refer to the above comment"""
     start = time.time()
     await asyncio.gather(
             async_comprehension(),
